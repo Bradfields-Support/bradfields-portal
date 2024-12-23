@@ -3,36 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bradfield's Services</title>
+    <title>Bradfields Portal</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="images/bradfields-logo.png" alt="Bradfield's Logo" class="logo">
-        <h1>Welcome to Bradfield's Service Portal</h1>
+        <div class="container">
+            <img src="images/logo.png" alt="Bradfields Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="https://bradfields-orders.github.io/bradfields-storefront/">Storefront</a></li>
+                    <li><a href="https://bradfields-support.github.io/bradfields-tickets/">Support</a></li>
+                    <li><a href="https://bradfields-installs.github.io/bradfields-forms/">Installs</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <main>
-        <section class="service">
-            <h2>Order Zebra Labels</h2>
-            <p>Place orders for Zebra labels for your label printers. Quick and hassle-free.</p>
-            <a href="https://bradfields-orders.github.io/bradfields-storefront/" class="button">Visit Storefront</a>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Bradfields Portal</h1>
+                <p>Your one-stop destination for all services: Ordering, Support, and Installs.</p>
+                <a href="#services" class="cta-button">Explore Services</a>
+            </div>
         </section>
-        <section class="service">
-            <h2>Technical Support</h2>
-            <p>Submit support tickets for printer, smartboard, and audio-visual problems. <strong>Service fee: $115/hour.</strong></p>
-            <a href="https://bradfields-support.github.io/bradfields-tickets/" class="button">Get Support</a>
-        </section>
-        <section class="service">
-            <h2>Smartboard Installs and Relocations</h2>
-            <p>Professional services for installing new smartboards or relocating existing ones in your facilities.</p>
-            <a href="https://bradfields-installs.github.io/bradfields-forms/" class="button">Smartboard Services</a>
+
+        <section id="services" class="services">
+            <div class="service-card">
+                <h2>Storefront</h2>
+                <p>Order Zebra labels for your label printers seamlessly.</p>
+                <a href="https://bradfields-orders.github.io/bradfields-storefront/" class="service-link">Visit Storefront</a>
+            </div>
+
+            <div class="service-card">
+                <h2>Support</h2>
+                <p>Get assistance with printers, Smartboards, and AV equipment.</p>
+                <a href="https://bradfields-support.github.io/bradfields-tickets/" class="service-link">Open a Ticket</a>
+            </div>
+
+            <div class="service-card">
+                <h2>Installs</h2>
+                <p>Professional Smartboard installation and relocation services.</p>
+                <a href="https://bradfields-installs.github.io/bradfields-forms/" class="service-link">Submit a Request</a>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>Contact us at: <a href="mailto:support@bradfields.com">support@bradfields.com</a></p>
-        <p>Phone: <a href="tel:8007477453">800-747-7453</a></p>
-        <p>Find Us: 2306 SW Adams St, Peoria, IL 61602</p>
-        <p>&copy; 2024 Bradfield's Computer Supply</p>
+        <p>&copy; 2024 Bradfields. All Rights Reserved. | <a href="mailto:info@bradfields.com">Contact Us</a></p>
     </footer>
 </body>
 </html>
