@@ -148,6 +148,20 @@ header nav ul li a:hover {
 }
 
 /* Footer */
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a img {
+    width: 24px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+footer .social-icons a img:hover {
+    transform: scale(1.2);
+}
+
 footer {
     background-color: #000c1a;
     color: white;
