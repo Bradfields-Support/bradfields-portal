@@ -15,6 +15,13 @@ body {
 
 /* Header Styles */
 header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header {
     background-color: #004085;
     color: white;
     text-align: center;
@@ -85,6 +92,11 @@ header nav ul li a:hover {
 }
 
 /* Services Section */
+.service-card img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
 .services {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
