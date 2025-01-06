@@ -182,3 +182,17 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .services {
+        grid-template-columns: 1fr;
+    }
+}
