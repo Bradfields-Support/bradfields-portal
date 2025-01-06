@@ -183,6 +183,40 @@ footer a:hover {
     text-decoration: underline;
 }
 
+.fee-details {
+    padding: 40px 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+.fee-details h2 {
+    font-size: 1.8rem;
+    color: #004085;
+    margin-bottom: 20px;
+}
+
+.fee-details ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.fee-details li {
+    margin-bottom: 10px;
+}
+
+.fee-details a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.fee-details a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2rem;
